@@ -1,2 +1,2 @@
 # pagination-VueJS
-Application with paginated posts fetched from API.
+Application with paginated posts. (API, Vuex)
