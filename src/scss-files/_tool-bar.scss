@@ -1,0 +1,28 @@
+@import "./variables.scss";
+
+.toolBar-container {
+  background-color: $color;
+  width: 100vw;
+  height: 6vh;
+  min-width: 300px;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  label {
+    color: white;
+  }
+  input {
+    margin-right: 1rem;
+  }
+}
+.toolBar-search-input {
+  height: 1.8rem;
+  width: 10rem;
+}
+
+@media (min-width: $break-point-bigScreen) {
+  .toolBar-search-input {
+    width: 15rem;
+  }
+}

@@ -1,0 +1,23 @@
+.header {
+  background-color: white;
+  height: 9vh;
+  min-width: 300px;
+  min-height: 50px;
+  top: 0%;
+}
+.header-title {
+  height: 50px;
+}
+.headContainer {
+  padding-top: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  img {
+    height: 50px;
+    width: 50px;
+    margin: 0 1rem;
+  }
+}
